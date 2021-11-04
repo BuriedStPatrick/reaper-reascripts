@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" commit="4a1b7ac4489353906f8c19e7dba83a00a71eaf1c" name="buried scripts">
   <category name="MIDI Editor">
-    <reapack name="buried_Set selected notes velocity to 127.eel" type="script">
-      <version name="1.0" author="buried" time="2021-11-04T20:24:00Z">
+    <reapack name="NOTE_SET_VEL_0.eel" type="script">
+      <version name="1.0" author="buried" time="2021-11-04T20:32:00Z">
         <changelog><![CDATA[+ Initial Release]]></changelog>
-        <source main="true">https://raw.githubusercontent.com/BuriedStPatrick/reaper-reascripts/main/MIDI%20Editor/buried_Set%20selected%20notes%20velocity%20to%20127.eel</source>
+        <source main="true">https://raw.githubusercontent.com/BuriedStPatrick/reaper-reascripts/main/MIDI%20Editor/NOTE_SET_VEL_0.eel</source>
+      </version>
+    </reapack>
+    <reapack name="NOTE_SET_VEL_24.eel" type="script">
+      <version name="1.0" author="buried" time="2021-11-04T20:32:00Z">
+        <changelog><![CDATA[+ Initial Release]]></changelog>
+        <source main="true">https://raw.githubusercontent.com/BuriedStPatrick/reaper-reascripts/main/MIDI%20Editor/NOTE_SET_VEL_24.eel</source>
+      </version>
+    </reapack>
+    <reapack name="NOTE_SET_VEL_96.eel" type="script">
+      <version name="1.0" author="buried" time="2021-11-04T20:32:00Z">
+        <changelog><![CDATA[+ Initial Release]]></changelog>
+        <source main="true">https://raw.githubusercontent.com/BuriedStPatrick/reaper-reascripts/main/MIDI%20Editor/NOTE_SET_VEL_96.eel</source>
+      </version>
+    </reapack>
+    <reapack name="NOTE_SET_VEL_127.eel" type="script">
+      <version name="1.0" author="buried" time="2021-11-04T20:32:00Z">
+        <changelog><![CDATA[+ Initial Release]]></changelog>
+        <source main="true">https://raw.githubusercontent.com/BuriedStPatrick/reaper-reascripts/main/MIDI%20Editor/NOTE_SET_VEL_127.eel</source>
       </version>
     </reapack>
   </category>

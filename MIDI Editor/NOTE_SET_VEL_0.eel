@@ -1,0 +1,36 @@
+/**
+ * ReaScript Name: Set selected notes velocity to 0
+ * Description: Sets selected notes velocity to 0 when run
+ * Instructions: Assign this script to a keybinding.
+ * Author: buried
+ * Author URI: https://pat.gg
+ * Repository: GitHub > buriedstpatrick > EEL Scripts for Cockos REAPER
+ * Repository URI: https://github.com/buriedstpatrick/reaper-reascripts
+ * File URI:
+ * Licence: GPL v3
+ * Forum Thread:
+ * Forum Thread URI:
+ * REAPER: 6.4
+ * Extensions: None
+ * Version: 1.0
+**/
+
+/**
+ * Changelog:
+ * v1.0 (2021-11-04)
+  + Initial release
+**/
+
+take = MIDIEditor_GetTake(MIDIEditor_GetActive()); // GET TAKE IN MIDI EDITOR
+MIDI_CountEvts(take, notes, ccs, sysex);// COUNT MIDI NOTES
+j = 0; // INIT
+loop(notes, // EXECUTE THE ACTION BASED ON NUMBER OF NOTES
+    MIDI_GetNote(take, j, sel, muted, start, end, chan, pitch, vel); // GET NOTE J
+    sel == 1 ? ( // IF NOTE IS SELECTED
+        vel = 0; // Optionnal calc based en vel
+        MIDI_SetNote(take, j, sel, muted, start, end, chan, pitch, vel); // SET NOTE J
+    ); // END IF NOTE IS SELECTED
+    j += 1; // INCREMENT
+); // END OF LOOP
+
+UpdateArrange();
