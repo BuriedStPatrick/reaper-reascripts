@@ -1,10 +1,10 @@
 /**
  * ReaScript Name: Set selected notes velocity to 127
- * Description: See title.
- * Instructions: Run.
+ * Description: Sets selected notes velocity to 127 when run
+ * Instructions: Assign this script to a keybinding.
  * Author: buried
  * Author URI: https://pat.gg
- * Repository: GitHub > X-Raym > EEL Scripts for Cockos REAPER
+ * Repository: GitHub > buriedstpatrick > EEL Scripts for Cockos REAPER
  * Repository URI: https://github.com/buriedstpatrick/reaper-reascripts
  * File URI:
  * Licence: GPL v3
@@ -17,7 +17,7 @@
 
 /**
  * Changelog:
- * v1.0 (2016-03-05)
+ * v1.0 (2021-11-04)
   + Initial release
 **/
 

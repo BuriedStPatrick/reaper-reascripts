@@ -1,106 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" commit="a41c7c4b33050240bc9cd1f3fff0118c57835fc4" name="X-Raym Scripts">
-  <category name="Color">
+<index version="1" commit="a41c7c4b33050240bc9cd1f3fff0118c57835fc4" name="buried scripts">
+  <category name="MIDI Editor">
     <reapack name="buried_Set selected notes velocity to 127.eel" type="script">
-      <version name="1.0" author="X-Raym" time="2015-03-03T13:52:58Z">
+      <version name="1.0" author="buried" time="2021-11-04T19:52:58Z">
         <changelog><![CDATA[+ Initial Release]]></changelog>
-        <source main="true">https://github.com/buriedstpatrick/reaper-reascripts/raw/2a42303362aadeb4b5c89f36e6fc1780854b32a2/Color/X-Raym_Display%20color%20of%20selected%20tracks%20items%20and%20takes%20in%20the%20console.eel</source>
+        <source main="true">https://github.com/buriedstpatrick/reaper-reascripts/raw/master/MIDI%20Editor/buried_Set%20selected%20notes%20velocity%20to%20127</source>
       </version>
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 X-Raym's ReaScripts for {\field{\*\fldinst{HYPERLINK "http://reaper.fm"}}{\fldrslt{\ul
-Cockos REAPER
-}}}
-\par}
-{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Pack Content\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Scripts written by X-Raym\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Scripts written for X-Raym\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Scripts moded by X-Raym\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Scripts needed for other scripts on this repository\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 ReaPack Download Instructions\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This repository is now linked natively in the {\field{\*\fldinst{HYPERLINK "http://www.reapack.com"}}{\fldrslt{\ul
-ReaPack
-}}}
- REAPER extension, the free scripts/packages download manager made by {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/"}}{\fldrslt{\ul
-cfillion
-}}}
-.\line This means that you don't need to download and install the scripts manually anymore, you can simply use ReaPack to batch download all scripts or scripts of your choice right from REAPER!\line More, you will get auto-update each time your synchronize packages!\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Manual ReaPack Installation\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 If for some reasons you deleted the link to this repo from ReaPack, you can add it back by importing the following {\field{\*\fldinst{HYPERLINK "https://raw.githubusercontent.com/X-Raym/REAPER-ReaScripts/master/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- link from the Import a repository window.\line {\f1 https://raw.githubusercontent.com/X-Raym/REAPER-ReaScripts/master/index.xml}\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Manual Download Instructions\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Please download the whole archive on my website => {\field{\*\fldinst{HYPERLINK "http://extremraym.com/en/my-reaper-scripts/"}}{\fldrslt{\ul
-My REAPER Scripts
-}}}
-.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 If you want download scripts on this repo anyway:\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab The whole archive can also be downloaded from here by clicking on the Download Master button.\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab For one script in particular: click on one script, then click on the Raw button, then File > Save (via Menu, Right Click or CTRL/CMD +S).\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Support\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Please consider making a {\field{\*\fldinst{HYPERLINK "http://extremraym.com/en/donation/"}}{\fldrslt{\ul
-donation
-}}}
- if you like my work and if you use some of these scripts in your projects, or consider buying some of my {\field{\*\fldinst{HYPERLINK "http://www.extremraym.com/en/downloads/category/reascripts/"}}{\fldrslt{\ul
-premium scripts
-}}}
-.\line This will help me continue sharing and maintaining these scripts for free, and even code new ones.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Detailed Articles\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://extremraym.com/en/my-reaper-scripts/"}}{\fldrslt{\ul
-My REAPER Scripts
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://extremraym.com/en/learn-reascript-reaper/"}}{\fldrslt{\ul
-How to Learn ReaScript
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://extremraym.com/reaper-randomisation-takes/"}}{\fldrslt{\ul
-REAPER Scripts : Take Properties Randomization
-}}}
-\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Contributors\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=49553"}}{\fldrslt{\ul
-spk77
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=47822"}}{\fldrslt{\ul
-HeDa
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=47920"}}{\fldrslt{\ul
-FnA
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=70694"}}{\fldrslt{\ul
-mpl
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://www.iamtimatkins.com"}}{\fldrslt{\ul
-timatkins
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=98780"}}{\fldrslt{\ul
-cfillion
-}}}
-\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Helpers\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=27094"}}{\fldrslt{\ul
-Breeder
-}}}
-\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/member.php?u=6549"}}{\fldrslt{\ul
-PlanetNine
-}}}
-\sa180\par}
-}
-]]></description>
-    <link rel="donation">http://www.extremraym.com/en/donation</link>
-    <link rel="website">http://www.extremraym.com/en/</link>
+    <description>
+      Scripts shamelessly copied and modified for my own use.
+    </description>
+    <link rel="website">https://soundcloud.com/buriedstpatrick</link>
   </metadata>
 </index>
