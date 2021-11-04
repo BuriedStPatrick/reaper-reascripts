@@ -4,7 +4,7 @@
     <reapack name="buried_Set selected notes velocity to 127.eel" type="script">
       <version name="1.0" author="buried" time="2021-11-04T19:52:58Z">
         <changelog><![CDATA[+ Initial Release]]></changelog>
-        <source main="true">https://github.com/buriedstpatrick/reaper-reascripts/raw/master/MIDI%20Editor/buried_Set%20selected%20notes%20velocity%20to%20127</source>
+        <source main="true">https://github.com/buriedstpatrick/reaper-reascripts/raw/master/MIDI%20Editor/buried_Set%20selected%20notes%20velocity%20to%20127.eel</source>
       </version>
     </reapack>
   </category>
